@@ -3,7 +3,7 @@
 A production-grade, state-aware workspace built on top of **React Flow** and **FastAPI**. This platform transitions beyond flat, linear workflow layouts into a modular canvas capable of handling dynamic context routing, human-in-the-loop validation, and self-healing evaluation loops.
 
 ### 🚀 Production-Grade Orchestration Backend
-> **Repository Link:**  
+> **Repository Link: https://github.com/samhitharao908/VectorShift-Assignment.git**  
 > *Note: The full Python network-matrix execution and variable-scraping engine is fully documented and maintained at the repository linked above.*
 
 ---
@@ -55,3 +55,13 @@ The workspace toolbar has been upgraded to filter modules into professional, cat
 
 ### Frontend Assembly
 Navigate to the root directory of your frontend directory and install the necessary dependencies:
+npm install
+npm install lucide-react
+
+### Backend Setup
+Navigate to your backend directory, ensure your Python environment is initialized, and spin up your orchestration worker:
+
+Bash
+pip install fastapi uvicorn networkx pydantic
+uvicorn main:app --reload
+The backend verification parser runs live at http://localhost:8000/pipelines/parse.
